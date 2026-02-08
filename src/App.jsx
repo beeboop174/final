@@ -47,7 +47,7 @@ function App() {
       
       <div className='header'> <img 
       style={{ width: '100px', height: 'auto' }}
-          src="src/assets/apple.png" 
+          src="../public/apple.png"
 
         /></div>
       <h1 className='header2'>{clicked ? 'LETS GOOOOOOOO!!!' : 'Dear Elsa,'}</h1>
@@ -57,7 +57,7 @@ function App() {
     {clicked ? (
         <img 
         key={Date.now()}
-          src="src/assets/giff.gif" 
+          src="../public/giff.gif"
           alt="Celebration" 
           className='celebration-gif'
         />
